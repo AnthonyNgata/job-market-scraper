@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+  Offline fixture representing a "standard" job board results page.
+
+  It intentionally contains the defects real boards produce, so `python run.py
+  --sample` exercises every branch of the cleaning pipeline:
+    * card 3  — no <span class="job-location">      (missing tag -> filled)
+    * card 4  — no skills list, skills only in prose (regex fallback)
+    * card 5  — duplicate of card 1, different job id (composite-key dedupe)
+    * card 6  — no company name                     (required field -> dropped)
+    * card 7  — messy whitespace + "N/A" salary     (normalisation)
+    * card 8  — same URL as card 2                  (URL dedupe)
+-->
+<html lang="en">
+<head><meta charset="utf-8"><title>Tech Jobs — Results</title></head>
+<body>
+  <main class="results">
+
+    <div class="job-card" data-job-id="JOB-1001">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1001">Senior Data Engineer</a></h2>
+      <span class="company-name">Northwind Analytics</span>
+      <span class="job-location">Berlin, Germany (Remote)</span>
+      <span class="salary">€85,000 - €105,000</span>
+      <time datetime="2026-09-15">3 days ago</time>
+      <ul class="skills">
+        <li>Python</li><li>Apache Airflow</li><li>dbt</li><li>Snowflake</li><li>SQL</li>
+      </ul>
+      <p class="job-summary">Own our batch ingestion platform end to end.</p>
+    </div>
+
+    <div class="job-card" data-job-id="JOB-1002">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1002">Analytics Engineer</a></h2>
+      <span class="company-name">Helios Retail Group</span>
+      <span class="job-location">London, UK</span>
+      <span class="salary">£70k – £85k</span>
+      <time datetime="2026-09-16">2 days ago</time>
+      <ul class="skills">
+        <li>dbt</li><li>SQL</li><li>BigQuery</li><li>Looker</li>
+      </ul>
+      <p class="job-summary">Model the warehouse that the whole company reports off.</p>
+    </div>
+
+    <!-- No location element at all. -->
+    <div class="job-card" data-job-id="JOB-1003">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1003">Machine Learning Engineer</a></h2>
+      <span class="company-name">Vertex Labs</span>
+      <span class="salary">$140,000 to $175,000</span>
+      <time datetime="2026-09-14">4 days ago</time>
+      <ul class="skills">
+        <li>Python</li><li>PyTorch</li><li>Kubernetes</li><li>AWS</li><li>Docker</li>
+      </ul>
+      <p class="job-summary">Ship recommendation models to production.</p>
+    </div>
+
+    <!-- No skills list: the matcher has to mine the prose instead. -->
+    <div class="job-card" data-job-id="JOB-1004">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1004">Platform Engineer, Data</a></h2>
+      <span class="company-name">Cobalt Systems</span>
+      <span class="job-location">Remote — EU</span>
+      <span class="salary">Competitive</span>
+      <time datetime="2026-09-17">1 day ago</time>
+      <p class="job-summary">
+        You will run Kafka and Spark clusters on Kubernetes, manage infrastructure
+        with Terraform on AWS, and keep our Python tooling and CI/CD healthy.
+      </p>
+    </div>
+
+    <!-- Same role as JOB-1001, re-listed with a new id. -->
+    <div class="job-card" data-job-id="JOB-1099">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1099">Senior Data Engineer</a></h2>
+      <span class="company-name">Northwind Analytics</span>
+      <span class="job-location">Berlin, Germany (Remote)</span>
+      <span class="salary">€85,000 - €105,000</span>
+      <time datetime="2026-09-15">3 days ago</time>
+      <ul class="skills">
+        <li>Python</li><li>Airflow</li><li>dbt</li><li>Snowflake</li>
+      </ul>
+      <p class="job-summary">Own our batch ingestion platform end to end.</p>
+    </div>
+
+    <!-- Company element missing entirely: unusable, must be dropped. -->
+    <div class="job-card" data-job-id="JOB-1005">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1005">Data Analyst</a></h2>
+      <span class="job-location">Manchester, UK</span>
+      <span class="salary">£45,000</span>
+      <ul class="skills"><li>SQL</li><li>Excel</li><li>Power BI</li></ul>
+      <p class="job-summary">Reporting and dashboards for the ops team.</p>
+    </div>
+
+    <!-- Ragged whitespace and a placeholder salary string. -->
+    <div class="job-card" data-job-id="JOB-1006">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1006">
+            Backend   Engineer
+            (Data Platform)
+      </a></h2>
+      <span class="company-name">   Meridian   Health  </span>
+      <span class="job-location">Amsterdam,
+          Netherlands</span>
+      <span class="salary">N/A</span>
+      <ul class="skills">
+        <li>Go</li><li>PostgreSQL</li><li>Kafka</li><li>Docker</li><li>gRPC</li>
+      </ul>
+      <p class="job-summary">Build the services behind our data products.</p>
+    </div>
+
+    <!-- Different id, but the same detail page as JOB-1002. -->
+    <div class="job-card" data-job-id="JOB-1007">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1002">Analytics Engineer (Contract)</a></h2>
+      <span class="company-name">Helios Retail Group Ltd.</span>
+      <span class="job-location">London</span>
+      <span class="salary">£500/day</span>
+      <ul class="skills"><li>dbt</li><li>SQL</li><li>BigQuery</li></ul>
+      <p class="job-summary">Six month contract on the reporting stack.</p>
+    </div>
+
+    <div class="job-card" data-job-id="JOB-1008">
+      <h2 class="job-title"><a class="job-link" href="/jobs/1008">Data Engineer, Streaming</a></h2>
+      <span class="company-name">Arclight Media</span>
+      <span class="job-location">New York, NY</span>
+      <span class="salary">$130,000 - $160,000</span>
+      <time datetime="2026-09-13">5 days ago</time>
+      <ul class="skills">
+        <li>Scala</li><li>Apache Spark</li><li>Kafka</li><li>AWS</li><li>SQL</li>
+      </ul>
+      <p class="job-summary">Real-time pipelines for viewership telemetry.</p>
+    </div>
+
+  </main>
+</body>
+</html>

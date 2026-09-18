@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Scraped data
+# Raw payloads are large, numerous and regenerable — keep them local.
+data/raw/*
+!data/raw/.gitkeep
+
+# Cleaned outputs are ignored LOCALLY so that a `--sample` run on a dev machine
+# never commits fixture data (whose source_url is a local file:// path) into the
+# repo. The scheduled workflow still publishes real scrapes: it force-adds this
+# directory with `git add -f data/cleaned`.
+data/cleaned/*
+!data/cleaned/.gitkeep
+
+# Tooling / OS
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

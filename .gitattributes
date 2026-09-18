@@ -1,0 +1,8 @@
+# Normalise line endings to LF in the repository.
+# The scheduled workflow runs on ubuntu-latest and its `run: |` blocks are bash;
+# CRLF sneaking into the YAML or any shell script would break them.
+* text=auto eol=lf
+
+# Binary-ish data: never touch line endings, and don't try to diff them.
+*.csv   text eol=lf
+*.json  text eol=lf

@@ -1,0 +1,95 @@
+name: Daily Job Scrape
+
+on:
+  schedule:
+    # 06:15 UTC daily. Avoid :00 — GitHub's scheduler is heavily contended on
+    # the hour and runs get queued for a long time.
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "Search term to scrape"
+        required: false
+        default: "data engineer"
+      pages:
+        description: "Max pages to walk"
+        required: false
+        default: "3"
+
+# Stop a manual run and the nightly run from committing over each other.
+concurrency:
+  group: job-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    permissions:
+      contents: write   # needed to commit the refreshed dataset back
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Smoke test against the offline fixture
+        # Runs the full pipeline with no network. If the parsing or cleaning
+        # code is broken, this fails in seconds and we never hit the live site.
+        run: python run.py --sample
+
+      - name: Run live scrape
+        id: scrape
+        run: |
+          python run.py \
+            --query "${{ github.event.inputs.query || 'data engineer' }}" \
+            --pages "${{ github.event.inputs.pages || '3' }}"
+        # Exit 1 means "ran fine, found nothing" — a bad day on the target site,
+        # not a broken pipeline. Don't fail the workflow over it; the commit
+        # step below is a no-op when there's nothing new.
+        continue-on-error: true
+
+      - name: Upload datasets as build artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: job-data-${{ github.run_number }}
+          path: |
+            data/cleaned/
+            data/raw/
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Commit refreshed dataset
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # -f because data/cleaned is gitignored locally (see .gitignore):
+          # only real scrapes produced by this workflow get published.
+          git add -f data/cleaned
+          # `git diff --cached --quiet` exits 0 when nothing is staged, which is
+          # the normal outcome when the board hasn't changed. Skip the commit.
+          if git diff --cached --quiet; then
+            echo "No dataset changes to commit."
+          else
+            git commit -m "chore(data): refresh job dataset $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Fail the run if the live scrape errored
+        # Deferred to the end so artifacts are always uploaded first.
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "Live scrape exited non-zero — check the scrape step log."
+          exit 1
