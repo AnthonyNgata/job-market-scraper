@@ -19,18 +19,59 @@ RAW_DIR = DATA_DIR / "raw"
 CLEANED_DIR = DATA_DIR / "cleaned"
 SAMPLES_DIR = PROJECT_ROOT / "samples"
 
-# Offline fixture used by `python run.py --sample`. Lets the whole pipeline be
-# exercised end to end without hitting the network (useful in CI and tests).
+# Offline fixtures used by `python run.py --sample` / `--sample-api`. Between
+# them the whole pipeline is exercised end to end without hitting the network,
+# which is what the CI smoke test relies on.
 SAMPLE_HTML = SAMPLES_DIR / "sample_job_board.html"
+SAMPLE_API_JSON = SAMPLES_DIR / "sample_api_response.json"
 
 
 # --------------------------------------------------------------------------- #
-# Target site
+# Live data source
 # --------------------------------------------------------------------------- #
+#
+# "api"  — query a public jobs API with a documented JSON contract. This is the
+#          default because a JSON contract breaks loudly and rarely, whereas a
+#          renamed CSS class breaks a scrape silently and often.
+# "html" — scrape HTML with the selectors further down. Still fully supported
+#          (and used by the offline fixture), but you own the selector churn.
+SOURCE = "api"
 
-# Generic tech job board. Replace with your real target; the selectors below
-# are the only other thing that needs to change.
-BASE_URL = "https://example-jobs.dev"
+# Adapter to use when SOURCE == "api". Each key here has a matching normaliser
+# in src/api_source.py, because the providers differ in ways config alone can't
+# express (unix vs ISO timestamps, explicit remote flag vs none).
+API_PROVIDER = "remotive"
+
+API_PROVIDERS = {
+    # Remote-only board. Filters server-side on `search`, so --query is honoured
+    # by the API rather than by us. It has no page parameter — one response
+    # carries up to `limit` rows — so --pages is mapped to a row budget of
+    # pages * PER_PAGE instead of N requests.
+    "remotive": {
+        "url": "https://remotive.com/api/remote-jobs",
+        "query_param": "search",
+        "paginates": False,
+        "per_page": 50,
+        # Every listing on this board is remote; the payload has no field
+        # saying so, so the adapter asserts it rather than leaving the
+        # downstream keyword heuristic to guess from a location string.
+        "all_remote": True,
+    },
+    # General board, Germany-heavy. Real pagination (250/page) but no search
+    # parameter, so --query is applied client-side over title/description/tags.
+    "arbeitnow": {
+        "url": "https://www.arbeitnow.com/api/job-board-api",
+        "query_param": None,
+        "paginates": True,
+        "per_page": 250,
+        "all_remote": False,
+    },
+}
+
+# HTML mode only. Left deliberately blank: a placeholder domain here is what
+# made the nightly run fail for two days, so an unset target now fails fast
+# with a clear message instead of resolving to nothing at 06:15 UTC.
+BASE_URL = ""
 SEARCH_PATH = "/jobs"
 
 # Pagination is expressed as a template so boards using ?page=, ?offset= or
@@ -39,6 +80,12 @@ PAGE_TEMPLATE = "{base}{path}?q={query}&page={page}"
 
 DEFAULT_QUERY = "data engineer"
 MAX_PAGES = 3
+
+# API descriptions are full HTML documents — often 10-20kB each. They are
+# stripped to text and truncated to this many characters before entering the
+# pipeline: enough for the skill matcher to work on, small enough that the CSV
+# stays readable and the raw archive doesn't balloon.
+MAX_DESCRIPTION_CHARS = 1500
 
 
 # --------------------------------------------------------------------------- #

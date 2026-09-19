@@ -157,19 +157,27 @@ def build_session() -> requests.Session:
     return session
 
 
-def fetch_page(url: str, session: requests.Session | None = None) -> str | None:
+def fetch(
+    url: str,
+    session: requests.Session | None = None,
+    params: dict[str, Any] | None = None,
+) -> requests.Response | None:
     """
-    Retrieve one page of HTML, retrying transient failures with exponential backoff.
+    Retrieve one URL, retrying transient failures with exponential backoff.
 
-    Returns the response body, or None when the page is unrecoverable. Returning
-    None instead of raising is deliberate: one dead page out of ten should not
-    abort a scheduled run that would otherwise collect nine pages of data.
+    Returns the response, or None when the URL is unrecoverable. Returning None
+    instead of raising is deliberate: one dead page out of ten should not abort
+    a scheduled run that would otherwise collect nine pages of data.
+
+    This is the single retry/backoff implementation in the project — the HTML
+    and JSON paths are both thin wrappers over it, so their failure behaviour
+    can't drift apart.
     """
     session = session or build_session()
 
     for attempt in range(1, settings.MAX_RETRIES + 1):
         try:
-            response = session.get(url, timeout=settings.REQUEST_TIMEOUT)
+            response = session.get(url, params=params, timeout=settings.REQUEST_TIMEOUT)
 
             # Retry only the codes that are plausibly transient; a 404 will
             # never succeed on attempt two, so fail it immediately.
@@ -179,8 +187,8 @@ def fetch_page(url: str, session: requests.Session | None = None) -> str | None:
                 )
 
             response.raise_for_status()
-            logger.info("Fetched %s (%d bytes)", url, len(response.content))
-            return response.text
+            logger.info("Fetched %s (%d bytes)", response.url, len(response.content))
+            return response
 
         except requests.Timeout:
             logger.warning("Timeout on %s (attempt %d/%d)", url, attempt, settings.MAX_RETRIES)
@@ -216,6 +224,12 @@ def fetch_page(url: str, session: requests.Session | None = None) -> str | None:
 
     logger.error("Giving up on %s after %d attempts", url, settings.MAX_RETRIES)
     return None
+
+
+def fetch_page(url: str, session: requests.Session | None = None) -> str | None:
+    """Fetch one URL and return its body as text, or None if unrecoverable."""
+    response = fetch(url, session=session)
+    return response.text if response is not None else None
 
 
 # --------------------------------------------------------------------------- #
@@ -329,6 +343,14 @@ def scrape(
     Stops early on the first page that yields no listings, which is how most
     boards signal "past the end" without a distinct status code.
     """
+    if not settings.BASE_URL:
+        # Fail loudly and immediately rather than spending three minutes on
+        # retries against a URL that can never resolve.
+        raise ValueError(
+            "settings.BASE_URL is empty — set a real job board for SOURCE='html', "
+            "or leave SOURCE='api' to use a JSON provider instead."
+        )
+
     session = build_session()
     all_listings: list[dict[str, Any]] = []
     page = 0  # defined up front so the closing log line is safe if max_pages < 1

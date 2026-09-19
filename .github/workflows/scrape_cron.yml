@@ -44,10 +44,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Smoke test against the offline fixture
-        # Runs the full pipeline with no network. If the parsing or cleaning
-        # code is broken, this fails in seconds and we never hit the live site.
-        run: python run.py --sample
+      - name: Smoke test against the offline fixtures
+        # Runs the full pipeline with no network, once per input shape: the HTML
+        # fixture covers the scraper + cleaning path, the JSON fixture covers
+        # every API adapter. If either is broken this fails in seconds and we
+        # never hit the live provider.
+        run: |
+          python run.py --sample
+          python run.py --sample-api
+
+      - name: Discard fixture output
+        # The smoke test writes its results into data/cleaned/. Clear them before
+        # the live run so neither the uploaded artifact nor the commit step can
+        # ever publish fixture rows (whose source_url is a local file:// path)
+        # as if they were real listings. .gitkeep is tracked, so keep it.
+        run: find data/cleaned -type f ! -name '.gitkeep' -delete
 
       - name: Run live scrape
         id: scrape
@@ -72,6 +83,10 @@ jobs:
           if-no-files-found: warn
 
       - name: Commit refreshed dataset
+        # Only publish data from a scrape that actually succeeded. Without this
+        # guard a failed scrape leaves whatever is in data/cleaned/ to be
+        # force-added and pushed — which is how fixture data reached main.
+        if: steps.scrape.outcome == 'success'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,219 @@
+{
+  "remotive": {
+    "0-legal-notice": "Captured sample of the Remotive API, trimmed for offline testing. Live endpoint: https://remotive.com/api/remote-jobs",
+    "job-count": 3,
+    "jobs": [
+      {
+        "id": 2091130,
+        "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
+        "title": "Senior .NET Full-stack Developer",
+        "company_name": "Lemon.io",
+        "company_logo": "https://remotive.com/job/2091130/logo",
+        "category": "Software Development",
+        "tags": [
+          ".Net",
+          "android",
+          "C",
+          "C#",
+          "C++",
+          "data science",
+          "fullstack",
+          "golang",
+          "ios",
+          "java",
+          "javascript",
+          "node.js",
+          "php",
+          "python",
+          "react",
+          "ruby/rails",
+          "scala",
+          "shopify",
+          "swift",
+          "UI/UX",
+          "wordpress",
+          "blockchain",
+          "AI/ML",
+          "automation",
+          "project management",
+          "react native",
+          "rust",
+          "unity",
+          "electron",
+          "spring",
+          "laravel",
+          "Ethereum",
+          "graphic design",
+          "Typescript ",
+          "angular ",
+          "firebase",
+          "data engineering",
+          "Site Reliability",
+          "Symfony",
+          "startup",
+          "marketplace",
+          "next.js",
+          "flutter"
+        ],
+        "job_type": "full_time",
+        "publication_date": "2026-09-17T13:22:05",
+        "candidate_required_location": "Northern America, LATAM, Europe, APAC",
+        "salary": "",
+        "description": "<p>Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than <a href=\"https://lemon.io/for-developers/?utm_source=remotive&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_.net/react_sep_2026_job_ad\" rel=\"nofollow\" target=\"_self\">Lemon.io</a> — the marketplace that connects you with hand-picked startups in the US and Europe.</p>\n<p><strong> </strong></p>\n<p><strong>What we offer:</strong></p>\n<ul style=\"\">\n<li style=\"\">The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers.</li>\n<li style=\"\">No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best.</li>\n<li style=\"\">Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours.</li>\n<li style=\"\">We respect your seniority so you can expect no micromanagement or screen trackers.</li>\n<li style=\"\">We will support you from the time you submit the application throughout all cooperation stages.</li>\n<li style=\"\">Most of our projects involve working in a fast-pace",
+        "company_logo_url": "https://remotive.com/job/2091130/logo"
+      },
+      {
+        "id": 2091129,
+        "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
+        "title": "Senior Data Scientist",
+        "company_name": "Lemon.io",
+        "company_logo": "https://remotive.com/job/2091129/logo",
+        "category": "Data and Analytics",
+        "tags": [
+          ".Net",
+          "android",
+          "C",
+          "C#",
+          "C++",
+          "golang",
+          "ios",
+          "java",
+          "javascript",
+          "node.js",
+          "php",
+          "python",
+          "react",
+          "ruby/rails",
+          "scala",
+          "shopify",
+          "swift",
+          "UI/UX",
+          "wordpress",
+          "blockchain",
+          "AI/ML",
+          "automation",
+          "project management",
+          "react native",
+          "rust",
+          "product management",
+          "unity",
+          "electron",
+          "spring",
+          "data analysis",
+          "laravel",
+          "Ethereum",
+          "graphic design",
+          "Typescript ",
+          "angular ",
+          "firebase",
+          "data engineering",
+          "Site Reliability",
+          "Symfony",
+          "startup",
+          "marketplace",
+          "next.js",
+          "flutter"
+        ],
+        "job_type": "full_time",
+        "publication_date": "2026-09-16T12:35:28",
+        "candidate_required_location": "Northern America, LATAM, Europe, APAC",
+        "salary": "",
+        "description": "<p>Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than <a href=\"https://lemon.io/for-developers/?utm_source=remotive&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_data_scientist_sep_2026_job_ad\" rel=\"nofollow\" target=\"_self\">Lemon.io</a> — the marketplace that connects you with hand-picked startups in the US and Europe.</p>\n<p><strong> </strong></p>\n<p><strong>What we offer:</strong></p>\n<ul style=\"\">\n<li style=\"\">The rate depends on your skills and experience. We've already paid out over $11M to our engineers.</li>\n<li style=\"\">No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best.</li>\n<li style=\"\">We'll manually find the best project for you according to your skills and preferences.</li>\n<li style=\"\">Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours.</li>\n<li style=\"\">We respect your seniority so you can expect no micromanagement or screen trackers.</li>\n<li style=\"\">Most of our projects involve working in a fast-paced startup environ",
+        "company_logo_url": "https://remotive.com/job/2091129/logo"
+      },
+      {
+        "id": 1919265,
+        "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
+        "title": "Senior Independent Software Developer",
+        "company_name": "A.Team",
+        "company_logo": "https://remotive.com/job/1919265/logo",
+        "category": "Software Development",
+        "tags": [
+          "go",
+          "wordpress",
+          "chat",
+          "apple",
+          "testing",
+          "catalyst"
+        ],
+        "job_type": "contract",
+        "publication_date": "2026-09-16T10:10:59",
+        "candidate_required_location": "Americas, Europe, Israel",
+        "salary": "$90 - $150 /hour",
+        "description": "<p style=\"text-size-adjust: 100%; overflow-wrap: break-word;\"><em>You must be located in the Americas, Europe, or Israel to apply.<br></em><br><br><a href=\"https://build.a.team/remotivereferral\" rel=\"nofollow\">A·Team</a> is a VC-backed, stealth, application-only home on the internet for senior independent software builders to team up with hand-picked, high-growth companies on their next big thing. </p>\n<p style=\"text-size-adjust: 100%; overflow-wrap: break-word;\">After talking with hundreds of independent engineers, designers, and product folks, we heard over and over that finding vetted, high-quality, consistent clients is hard, and projects are often too small to be rewarding. A·Team matches small teams of the most talented builders in the world with companies backed by a16z, YC, Softbank, General Catalyst, etc. on a contract basis for many of their most important initiatives. We quietly launched in May 2020, and have helped A·Teamers earn $85+ million since.</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;\"><em>As part of A·Team, you can expect:",
+        "company_logo_url": "https://remotive.com/job/1919265/logo"
+      }
+    ]
+  },
+  "arbeitnow": {
+    "data": [
+      {
+        "slug": "ai-application-engineer-ai-products-llm-rag-berlin-232153",
+        "company_name": "Machine Learning Reply",
+        "title": "AI Application Engineer – AI Products (LLM & RAG) (m/f/d)",
+        "description": "<p>At Machine Learning Reply, we help organizations turn cutting-edge AI technologies into real-world applications and scalable digital products.</p><p style=\"min-height: 1.7em;\"></p><p>To strengthen our team, we are looking for an AI Application Engineer who enjoys building AI-powered solutions and intelligent product features using modern machine learning and generative AI technologies.</p><p style=\"min-height: 1.7em;\"></p><p>While our GenAI Engineers focus on model development and AI architectures, AI Application Engineers focus on building user-facing AI applications and turning AI capabilities into scalable products.</p><p style=\"min-height: 1.7em;\"></p><p>In this role, you will work at the intersection of AI engineering, backend development, product development and cloud deployment, building production-ready AI systems that create real business value.</p><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"color:#121317\">Tasks</span></strong></p><p>As an AI Application Engineer, you design and build AI-powered applications and product features for enterprise clients.</p><p>Your projects may include:</p><ul><li><p>Designing and developing AI applications, such as enterpri",
+        "remote": false,
+        "url": "https://www.arbeitnow.com/jobs/companies/machine-learning-reply/ai-application-engineer-ai-products-llm-rag-berlin-232153",
+        "tags": [
+          "Machine Learning Engineering"
+        ],
+        "job_types": [
+          "Mid",
+          "fulltime permanent"
+        ],
+        "location": "Berlin, Berlin, Germany",
+        "created_at": 1789849840
+      },
+      {
+        "slug": "junior-ai-application-engineer-ai-products-llm-rag-munich-412158",
+        "company_name": "Machine Learning Reply",
+        "title": "Junior AI Application Engineer – AI Products (LLM & RAG) (m/f/d)",
+        "description": "<p>Bei Machine Learning Reply unterstützen wir Unternehmen dabei, modernste AI-Technologien in reale Anwendungen und skalierbare digitale Produkte zu verwandeln.</p><p style=\"min-height: 1.7em;\"></p><p>Zur Verstärkung unseres Teams suchen wir einen Junior AI Application Engineer, der Freude daran hat, AI-powered solutions und intelligente Produkt-Features mit Hilfe von modernen Machine Learning und Generative AI Technologien zu entwickeln.</p><p style=\"min-height: 1.7em;\"></p><p>Während sich unsere GenAI Engineers auf die Modellentwicklung und AI-Architekturen konzentrieren, liegt der Fokus der AI Application Engineers auf der Entwicklung nutzerzentrierter AI-Applications und der Überführung von AI-Capabilities in skalierbare Produkte.</p><p style=\"min-height: 1.7em;\"></p><p>In dieser Rolle arbeitest du an der Schnittstelle von AI Engineering, Backend Development, Produktentwicklung und Cloud Deployment, um produktionsreife AI-Systeme zu bauen, die echten geschäftlichen Mehrwert schaffen.</p><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"color:#121317\">Aufgaben</span></strong></p><p>Als Junior AI Application Engineer (m/w/d) entwirfst und entwickelst du KI-gestützte Anwe",
+        "remote": false,
+        "url": "https://www.arbeitnow.com/jobs/companies/machine-learning-reply/junior-ai-application-engineer-ai-products-llm-rag-munich-412158",
+        "tags": [
+          "Machine Learning Engineering"
+        ],
+        "job_types": [
+          "Mid",
+          "fulltime permanent"
+        ],
+        "location": "Munich, Bayern, Germany",
+        "created_at": 1789849840
+      },
+      {
+        "slug": "werkstudentin-im-projektmanagement-munchen-413495",
+        "company_name": "Doo",
+        "title": "Werkstudent*in im Projektmanagement",
+        "description": "<br><strong>Werde Teil unseres Teams!</strong><p>Du bist auf der Suche nach einem spannenden Nebenjob, bei dem du von tollen Teamkollegen lernen und dein Know-how ausbauen kannst? Du möchtest nicht nur Themen abarbeiten, sondern auch eigenen Input einbringen? Dann freuen wir uns dich bald bei uns im Team begrüßen zu dürfen!</p><br><strong>Deine Aufgaben</strong><p><ul style=\"margin:4px 0 4px 24px;padding:0;\"><li style=\"margin:2px 0;padding:0;color:#1d1c1d;\">Du unterstützt unser Product Consulting Team bei der täglichen Arbeit und übernimmst gelegentlich Aufgaben im Rahmen von Kundenprojekten, beispielsweise das Erstellen von Websites sowie Landingpages</li><li style=\"margin:2px 0;padding:0;color:#1d1c1d;\">Im Rahmen von Kundenanfragen nimmst du Anpassungen in CSS, HTML, JavaScript oder unserer Automatisierungssoftware vor </li><li style=\"margin:2px 0;padding:0;color:#1d1c1d;\">Du kümmerst dich um die Dokumentation des Projektverlaufs im Hinblick auf relevante Milestones im Projektmanagement-Tool</li><li style=\"margin:2px 0;padding:0;color:#1d1c1d;\">Du unterstützt unser Onsite-Team bei der Datenintegration zwischen der Online-Registrierung und vor-Ort-Lösungen</li><li style=\"margin:2p",
+        "remote": false,
+        "url": "https://www.arbeitnow.com/jobs/companies/doo/werkstudentin-im-projektmanagement-munchen-413495",
+        "tags": [
+          "Projektmanagement",
+          "CSS",
+          "HTML",
+          "Werkstudent",
+          "Product Consulting",
+          "JavaScript",
+          "Engineering",
+          "Make",
+          "Webentwicklung"
+        ],
+        "job_types": [
+          "Entry",
+          "Intern",
+          "Part time"
+        ],
+        "location": "München",
+        "created_at": 1789848561
+      }
+    ],
+    "links": {
+      "next": null
+    },
+    "meta": {
+      "current_page": 1,
+      "per_page": 250
+    }
+  }
+}

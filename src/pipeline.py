@@ -184,7 +184,17 @@ def add_derived_fields(df: pd.DataFrame) -> pd.DataFrame:
     # signal in either one.
     haystack = (df["job_title"].fillna("") + " " + df["location"].fillna("")).str.lower()
     pattern = "|".join(re.escape(m) for m in settings.REMOTE_MARKERS)
-    df["is_remote"] = haystack.str.contains(pattern, regex=True, na=False)
+    inferred = haystack.str.contains(pattern, regex=True, na=False)
+
+    if "is_remote" in df.columns:
+        # A source that states remoteness outright (an API boolean) is
+        # authoritative; the keyword heuristic only fills the gaps. Without
+        # this, a remote-only board whose location reads "Europe, APAC" would
+        # be scored 0% remote.
+        stated = df["is_remote"]
+        df["is_remote"] = stated.where(stated.notna(), inferred).astype(bool)
+    else:
+        df["is_remote"] = inferred
 
     parsed = df["salary_raw"].map(_parse_salary)
     df["salary_min"] = parsed.map(lambda p: p[0])

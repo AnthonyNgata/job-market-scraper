@@ -25,7 +25,7 @@ import logging
 import sys
 
 from config import settings
-from src import pipeline, scraper, storage
+from src import api_source, pipeline, scraper, storage
 
 logger = logging.getLogger("run")
 
@@ -52,6 +52,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--sample",
         action="store_true",
         help="parse the bundled sample HTML instead of making network requests",
+    )
+    source.add_argument(
+        "--sample-api",
+        action="store_true",
+        help="normalise the bundled sample API payloads instead of making network requests",
     )
     source.add_argument(
         "--from-raw",
@@ -114,6 +119,15 @@ def main(argv: list[str] | None = None) -> int:
         elif args.sample:
             logger.info("Sample mode — parsing %s", settings.SAMPLE_HTML)
             listings = scraper.scrape_local(settings.SAMPLE_HTML)
+        elif args.sample_api:
+            logger.info("Sample mode — normalising %s", settings.SAMPLE_API_JSON)
+            listings = api_source.load_sample(settings.SAMPLE_API_JSON)
+        elif settings.SOURCE == "api":
+            logger.info(
+                "Querying %s API for %r (max %d page(s))",
+                settings.API_PROVIDER, args.query, args.pages,
+            )
+            listings = api_source.fetch(query=args.query, max_pages=args.pages)
         else:
             logger.info("Scraping %r (max %d page(s))", args.query, args.pages)
             listings = scraper.scrape(query=args.query, max_pages=args.pages)

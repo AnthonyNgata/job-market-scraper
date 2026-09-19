@@ -22,8 +22,9 @@ gets exercised without touching a live site.
 ## Usage
 
 ```bash
-python run.py --query "data engineer" --pages 3   # live scrape
-python run.py --sample                            # offline fixture
+python run.py --query "data engineer" --pages 3   # live run
+python run.py --sample                            # offline HTML fixture
+python run.py --sample-api                        # offline API fixture
 python run.py --from-raw data/raw/jobs_<ts>.json  # re-clean, no re-scrape
 python run.py --sample --verbose                  # debug logging
 ```
@@ -34,12 +35,46 @@ python run.py --sample --verbose                  # debug logging
 | `1` | Ran cleanly but collected no listings |
 | `2` | Unrecoverable error (traceback in the log) |
 
-## Pointing it at a real board
+## Where the data comes from
 
-Everything site-specific lives in [config/settings.py](config/settings.py) —
-`src/` never needs editing for a new target:
+`settings.SOURCE` picks the live path:
 
-1. Set `BASE_URL`, `SEARCH_PATH` and `PAGE_TEMPLATE`.
+| `SOURCE` | Module | Notes |
+|---|---|---|
+| `"api"` *(default)* | [src/api_source.py](src/api_source.py) | Public JSON APIs with a documented contract |
+| `"html"` | [src/scraper.py](src/scraper.py) | CSS-selector scraping; you own the selector churn |
+
+The API path is the default because HTML scraping fails *silently* — a board
+renames one class and the run keeps exiting 0 with zero rows until someone
+notices the dataset went flat. A JSON contract fails loudly and rarely, which
+is what you want from something running unattended at 06:15 every morning.
+
+### API providers
+
+Configured in `settings.API_PROVIDERS`, with a normaliser each in
+`src/api_source.py`:
+
+| Provider | Search | Paging | Notes |
+|---|---|---|---|
+| `remotive` *(default)* | server-side | single capped response | Remote-only; has salary + tags |
+| `arbeitnow` | client-side | 250/page | General board, Germany-heavy; explicit `remote` flag |
+
+`--pages` means whichever the provider supports: real pages for a paginating
+API, or a row budget of `pages × per_page` for one that returns a single
+capped response.
+
+Adding a provider is an entry in `API_PROVIDERS` plus a normaliser registered
+in `ADAPTERS`. Normalisers are code, not config, because the differences are
+structural — unix epochs vs ISO 8601, an explicit `remote` boolean vs none —
+and a declarative field map would just become a config file full of lambdas.
+
+### Pointing the HTML path at a real board
+
+`BASE_URL` ships **empty on purpose**: a placeholder domain here is what made
+the nightly run fail silently for two days, so an unset target now raises
+immediately instead of burning three minutes on retries at 06:15 UTC.
+
+1. Set `SOURCE = "html"`, then `BASE_URL`, `SEARCH_PATH` and `PAGE_TEMPLATE`.
 2. Update `SELECTORS`. Each field takes a **list** of fallback selectors tried
    in order, because boards A/B test their markup and a single selector is
    fragile. A miss degrades to `None`; it doesn't raise.
@@ -157,11 +192,12 @@ removed, 6 retained:
 
 ```
 ├── run.py                   # pipeline entry point + CLI
-├── config/settings.py       # URLs, headers, selectors, skill vocabulary
+├── config/settings.py       # providers, URLs, headers, selectors, vocabulary
 ├── src/
-│   ├── scraper.py           # requests + BeautifulSoup engine
+│   ├── api_source.py        # JSON provider adapters (default live path)
+│   ├── scraper.py           # requests + BeautifulSoup engine, shared retries
 │   ├── pipeline.py          # Pandas cleaning and insights
 │   └── storage.py           # atomic reads/writes and exports
-├── samples/                 # offline HTML fixture
+├── samples/                 # offline HTML + API fixtures
 └── data/{raw,cleaned}/      # archives and outputs
 ```
