@@ -150,10 +150,15 @@ def _skill_tags_of(node: Tag) -> list[str]:
 # Fetching
 # --------------------------------------------------------------------------- #
 
-def build_session() -> requests.Session:
-    """A single Session reuses the TCP connection across paginated requests."""
+def build_session(headers: dict[str, str] | None = None) -> requests.Session:
+    """
+    A single Session reuses the TCP connection across paginated requests.
+
+    `headers` defaults to the HTML browsing set; the JSON path passes
+    `settings.API_HEADERS` so it asks for the media type it actually wants.
+    """
     session = requests.Session()
-    session.headers.update(settings.HEADERS)
+    session.headers.update(headers or settings.HEADERS)
     return session
 
 

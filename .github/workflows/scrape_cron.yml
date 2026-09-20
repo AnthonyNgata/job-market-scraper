@@ -31,10 +31,10 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -42,7 +42,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Unit tests
+        # Guards the pure logic the smoke test can't distinguish a regression in:
+        # a broken normaliser or skill pattern still produces *a* dataset, just a
+        # quietly wrong one, and the only symptom downstream is a dip in row
+        # count that nobody reads. These fail loudly instead.
+        run: python -m pytest -q
 
       - name: Smoke test against the offline fixtures
         # Runs the full pipeline with no network, once per input shape: the HTML
@@ -62,17 +69,33 @@ jobs:
 
       - name: Run live scrape
         id: scrape
+        # run.py's exit codes carry three distinct meanings:
+        #   0 = listings collected
+        #   1 = ran fine, found nothing (a bad day on the board, not a bug)
+        #   2 = unrecoverable error
+        #
+        # `continue-on-error: true` cannot express that. It collapses every
+        # non-zero exit into `outcome: failure`, so the "found nothing" case
+        # tripped the fail-the-run step below exactly like a crash — the run went
+        # red on a day the pipeline had behaved correctly. The code is captured
+        # explicitly here and classified into an output the later steps branch
+        # on, which is what the comment above always claimed happened.
         run: |
+          set +e
           python run.py \
             --query "${{ github.event.inputs.query || 'data engineer' }}" \
             --pages "${{ github.event.inputs.pages || '3' }}"
-        # Exit 1 means "ran fine, found nothing" — a bad day on the target site,
-        # not a broken pipeline. Don't fail the workflow over it; the commit
-        # step below is a no-op when there's nothing new.
-        continue-on-error: true
+          code=$?
+          set -e
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          case "$code" in
+            0) echo "status=ok"    >> "$GITHUB_OUTPUT" ;;
+            1) echo "status=empty" >> "$GITHUB_OUTPUT" ;;
+            *) echo "status=error" >> "$GITHUB_OUTPUT" ;;
+          esac
 
       - name: Upload datasets as build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         if: always()
         with:
           name: job-data-${{ github.run_number }}
@@ -86,7 +109,7 @@ jobs:
         # Only publish data from a scrape that actually succeeded. Without this
         # guard a failed scrape leaves whatever is in data/cleaned/ to be
         # force-added and pushed — which is how fixture data reached main.
-        if: steps.scrape.outcome == 'success'
+        if: steps.scrape.outputs.status == 'ok'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -97,14 +120,37 @@ jobs:
           # the normal outcome when the board hasn't changed. Skip the commit.
           if git diff --cached --quiet; then
             echo "No dataset changes to commit."
-          else
-            git commit -m "chore(data): refresh job dataset $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "chore(data): refresh job dataset $(date -u +%Y-%m-%d)"
+          # This job is not the only writer on main, so a rejected push is an
+          # expected outcome rather than an exceptional one — any human commit
+          # landing during the ~30s scrape is enough to cause it. Rebase onto
+          # whatever arrived and retry instead of failing the run over a race.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Dataset published on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
+            git pull --rebase origin main
+          done
+          echo "::error::Could not publish the dataset after 3 push attempts."
+          exit 1
+
+      - name: Note an empty scrape
+        # Not a failure: the pipeline worked, every provider in the chain just
+        # had nothing to give. Surfaced as a warning so a run of empty days is
+        # visible in the Actions list without any of them going red.
+        if: steps.scrape.outputs.status == 'empty'
+        run: |
+          echo "::warning::Live scrape ran cleanly but collected no listings. \
+          Dataset left unchanged."
 
       - name: Fail the run if the live scrape errored
         # Deferred to the end so artifacts are always uploaded first.
-        if: steps.scrape.outcome == 'failure'
+        if: steps.scrape.outputs.status == 'error'
         run: |
-          echo "Live scrape exited non-zero — check the scrape step log."
+          echo "::error::run.py exited ${{ steps.scrape.outputs.exit_code }} \
+          (unrecoverable) — check the scrape step log."
           exit 1

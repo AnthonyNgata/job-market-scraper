@@ -258,7 +258,7 @@ def fetch(
     """
     provider = provider or settings.API_PROVIDER
     config = _provider_config(provider)
-    session = scraper.build_session()
+    session = scraper.build_session(settings.API_HEADERS)
 
     url = config["url"]
     query_param = config["query_param"]
@@ -306,6 +306,49 @@ def fetch(
 
     logger.info("API fetch complete: %d listing(s) from %s", len(all_listings), provider)
     return all_listings
+
+
+def fetch_any(
+    query: str = settings.DEFAULT_QUERY,
+    max_pages: int = settings.MAX_PAGES,
+    providers: list[str] | None = None,
+) -> list[dict[str, Any]]:
+    """
+    Try each configured provider in order and return the first non-empty result.
+
+    A scheduled job that depends on one third party is only as reliable as that
+    third party's worst day: an outage, a rate limit, or a CDN that decides the
+    runner's IP range looks like a bot all produce the same "0 listings" and,
+    before this, the same red run. Falling through to the next board turns all
+    of those into a slower run with real data.
+
+    A provider that raises is treated exactly like one that returns nothing —
+    the point of a fallback chain is that it survives failures it didn't
+    anticipate, so the exception is logged and the chain continues.
+    """
+    providers = providers or settings.API_PROVIDER_CHAIN
+
+    for position, provider in enumerate(providers, start=1):
+        try:
+            listings = fetch(query=query, max_pages=max_pages, provider=provider)
+        except Exception:
+            logger.exception("Provider %s raised — trying the next one", provider)
+            continue
+
+        if listings:
+            if position > 1:
+                logger.warning(
+                    "Primary provider(s) %s returned nothing; served by fallback %r",
+                    ", ".join(providers[: position - 1]), provider,
+                )
+            return listings
+
+        logger.warning("Provider %s returned 0 listing(s)", provider)
+
+    logger.error(
+        "Every provider in the chain returned nothing: %s", ", ".join(providers)
+    )
+    return []
 
 
 # --------------------------------------------------------------------------- #

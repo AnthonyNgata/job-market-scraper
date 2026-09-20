@@ -68,6 +68,27 @@ def _atomic_write(path: Path, write_fn) -> Path:
 # Raw archive
 # --------------------------------------------------------------------------- #
 
+def _describe_source(listings: list[dict[str, Any]]) -> Any:
+    """
+    Work out what actually produced these listings, for the archive header.
+
+    This used to record `settings.BASE_URL`, which silently became wrong the day
+    the pipeline moved to JSON providers: BASE_URL is only meaningful in HTML
+    mode and is now empty, so every archive claimed to come from "". The rows
+    themselves carry the truth, so read it back off them — and keep the whole
+    list when a run spans more than one source rather than picking a winner.
+    """
+    seen: list[str] = []
+    for listing in listings:
+        url = listing.get("source_url")
+        if url and url not in seen:
+            seen.append(url)
+
+    if not seen:
+        return settings.BASE_URL or None
+    return seen[0] if len(seen) == 1 else seen
+
+
 def save_raw(listings: list[dict[str, Any]], label: str = "jobs") -> Path | None:
     """
     Archive the unmodified scraper output before any cleaning touches it.
@@ -82,7 +103,7 @@ def save_raw(listings: list[dict[str, Any]], label: str = "jobs") -> Path | None
     payload = {
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "record_count": len(listings),
-        "source": settings.BASE_URL,
+        "source": _describe_source(listings),
         "listings": listings,
     }
 

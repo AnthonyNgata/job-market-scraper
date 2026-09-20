@@ -124,10 +124,10 @@ def main(argv: list[str] | None = None) -> int:
             listings = api_source.load_sample(settings.SAMPLE_API_JSON)
         elif settings.SOURCE == "api":
             logger.info(
-                "Querying %s API for %r (max %d page(s))",
-                settings.API_PROVIDER, args.query, args.pages,
+                "Querying APIs for %r (max %d page(s)); provider chain: %s",
+                args.query, args.pages, ", ".join(settings.API_PROVIDER_CHAIN),
             )
-            listings = api_source.fetch(query=args.query, max_pages=args.pages)
+            listings = api_source.fetch_any(query=args.query, max_pages=args.pages)
         else:
             logger.info("Scraping %r (max %d page(s))", args.query, args.pages)
             listings = scraper.scrape(query=args.query, max_pages=args.pages)

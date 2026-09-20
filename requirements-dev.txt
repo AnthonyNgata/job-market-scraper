@@ -1,0 +1,4 @@
+# Test-only dependencies. Kept out of requirements.txt so the scheduled run
+# installs them deliberately rather than shipping a test runner into every
+# environment that just wants to scrape.
+pytest>=8.0.0

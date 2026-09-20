@@ -68,6 +68,17 @@ API_PROVIDERS = {
     },
 }
 
+# Order in which providers are tried when SOURCE == "api". The run stops at the
+# first one that returns listings; the others exist so that a board being down,
+# rate-limiting us, or blocking the runner's IP range costs a slower run instead
+# of a red one — a single provider made the whole pipeline a single point of
+# failure, which is exactly how an unattended 06:15 job ends up paging someone.
+#
+# Results are never merged across providers: one run's rows all come from one
+# board, so `all_remote` and the remote flag keep a single, coherent meaning and
+# the dedupe pass isn't asked to reconcile two different id schemes.
+API_PROVIDER_CHAIN = [API_PROVIDER, "arbeitnow"]
+
 # HTML mode only. Left deliberately blank: a placeholder domain here is what
 # made the nightly run fail for two days, so an unset target now fails fast
 # with a clear message instead of resolving to nothing at 06:15 UTC.
@@ -103,6 +114,13 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
+
+# JSON endpoints must not be told we prefer HTML. Providers commonly sit behind
+# a CDN that content-negotiates, and a client advertising `text/html` is the one
+# most likely to be handed an HTML error or challenge page — which arrives as a
+# 200 and then dies in `response.json()`, looking like "the API broke" when it
+# was really us asking for the wrong media type.
+API_HEADERS = {**HEADERS, "Accept": "application/json"}
 
 # (connect timeout, read timeout) in seconds. Splitting them means a server
 # that accepts the socket but stalls on the body still fails fast.
