@@ -1,5 +1,33 @@
 [
   {
+    "job_id": "remotive-2091144",
+    "job_title": "Content Reviewer - United States",
+    "company": "TELUS Digital",
+    "location": "USA",
+    "salary_raw": "Unknown",
+    "posted_raw": "2026-09-21T12:55:11",
+    "description": "We are looking for an independent, flexible, remote opportunity where you can help improve AI-powered search technology from the comfort of your home? If you're curious, internet-savvy, and enjoy evaluating online content, this freelance project could be a great fit. A Day in the Life of a Content Reviewer - US In this role, you will analyze and provide feedback on text, webpages, images, and other types of online content for leading search engines using a specialized online platform. By reviewing and rating search results for relevance and quality, you will help improve the overall search experience for millions of users around the world, including yourself. Join our global community and put your skills to work supporting one of the world's leading search technologies. Service Rates The rate of pay is $0.2333 per completed task, with an estimated earning potential of $14 per hour. Compensation is based on tasks completed and project availability. Estimated earnings may vary depending on task volume and program requirements including, quality, and productivity, in accordance with the program's quality standards and guidelines. Please note that only one member per household may participate in this program. If it is identified that more than one person from the same household is participating in the TELUS Digital Rating Program, all associated accounts may be removed from the program. Independent Contractor Relationship This opportunity is offered on an independent contractor…",
+    "skills": [
+      "Machine Learning"
+    ],
+    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
+    "skill_tags_raw": [
+      "android",
+      "ios",
+      "social media",
+      "AI/ML",
+      "All others"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skill_count": 1,
+    "skills_joined": "Machine Learning"
+  },
+  {
     "job_id": "remotive-2091141",
     "job_title": "Frontend Web Application Developer",
     "company": "KoboToolbox",
@@ -17,7 +45,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "api",
       "django",
@@ -60,7 +88,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -119,7 +147,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/customer-service/kundenservice-mobilfunk-inbound-innerhalb-der-eu-ausgenommen-deutschland-2091139",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "Customer Service"
     ],
@@ -151,7 +179,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -226,7 +254,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -301,7 +329,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -366,7 +394,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "go",
       "wordpress",
@@ -396,7 +424,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "go",
       "UI/UX",
@@ -434,7 +462,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -484,7 +512,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -527,7 +555,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-response-evaluator-2091126",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "AI/ML",
       "research",
@@ -552,7 +580,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -580,7 +608,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -614,7 +642,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -639,7 +667,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -682,7 +710,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091101",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -760,7 +788,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -844,7 +872,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-09-22T11:41:08.493980+00:00",
+    "scraped_at": "2026-09-23T11:39:47.572155+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
