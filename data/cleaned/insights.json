@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-09-25T11:53:06.494361+00:00",
-  "total_listings": 19,
+  "generated_at": "2026-09-26T11:27:26.229620+00:00",
+  "total_listings": 18,
   "unique_companies": 12,
-  "remote_listings": 19,
-  "listings_with_skills": 15,
+  "remote_listings": 18,
+  "listings_with_skills": 14,
   "top_5_skills": [
     {
       "skill": "Machine Learning",
-      "job_count": 11,
-      "pct_of_listings": 57.9
+      "job_count": 10,
+      "pct_of_listings": 55.6
     },
     {
       "skill": "React",
-      "job_count": 8,
-      "pct_of_listings": 42.1
+      "job_count": 7,
+      "pct_of_listings": 38.9
     },
     {
       "skill": "TypeScript",
-      "job_count": 8,
-      "pct_of_listings": 42.1
+      "job_count": 7,
+      "pct_of_listings": 38.9
     },
     {
       "skill": "Python",
-      "job_count": 7,
-      "pct_of_listings": 36.8
+      "job_count": 6,
+      "pct_of_listings": 33.3
     },
     {
       "skill": "Node.js",
-      "job_count": 7,
-      "pct_of_listings": 36.8
+      "job_count": 6,
+      "pct_of_listings": 33.3
     }
   ],
   "salary_coverage": {
@@ -40,6 +40,6 @@
     "Northern America, LATAM, Europe, APAC": 3,
     "Europe": 2,
     "Americas, Europe, Israel": 2,
-    "LATAM, Europe, USA, Canada, APAC": 2
+    "USA": 1
   }
 }
