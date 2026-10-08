@@ -1,5 +1,41 @@
 [
   {
+    "job_id": "remotive-2091045",
+    "job_title": "Tier III Service Desk Engineer",
+    "company": "Unio Digital",
+    "location": "Worldwide",
+    "salary_raw": "Unknown",
+    "posted_raw": "2026-10-07T01:11:09",
+    "description": "Unió Digital is an Arizona-based managed service provider (MSP) delivering Managed IT Services, Low Voltage Cabling, Access Control, Video Surveillance, and Intrusion Services. We believe technology should be intuitive, not intimidating. We are looking for an experienced Tier 3 Service Desk Technician with exceptional problem-solving skills. You will serve as the escalation point within the team, resolving complex technical issues while also leading client onboarding and project initiatives. You are expected to be involved in direct end-user support when required. If you have a passion for ensuring top-quality user support and thrive in a collaborative environment, this role is for you. Duties · Lead and support our helpdesk environment for managed service clients · Coordinate and manage client projects, acting as a bridge between the technical team and the client to ensure project success · Provide above and beyond support to our clients and respond to queries for technical assistance in person, via phone, or electronically as required · Provide training and support to clients during the onboarding process to ensure they understand how to effectively use their new IT systems and services. · Develop project plans for client onboarding and standardization projects, outlining tasks, resources required, and estimated timelines · Install, configure, diagnose, test and resolve technical hardware and software issues · Maintain and update written client and process documentation to…",
+    "skills": [
+      "Azure"
+    ],
+    "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
+    "skill_tags_raw": [
+      "azure",
+      "cisco",
+      "security",
+      "video",
+      "documentation",
+      "hardware",
+      "helpdesk",
+      "onboarding",
+      "MSP",
+      "ticketing",
+      "Microsoft 365",
+      "IT systems",
+      "Information Technology"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skill_count": 1,
+    "skills_joined": "Azure"
+  },
+  {
     "job_id": "remotive-2091149",
     "job_title": "Software Engineer / AI Code Trainer (Python, Web, Full Stack)",
     "company": "CodeForAI",
@@ -19,7 +55,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "api",
       "backend",
@@ -53,6 +89,29 @@
     "skills_joined": "Java, JavaScript, Machine Learning, Node.js, Python, React, SQL, TypeScript"
   },
   {
+    "job_id": "remotive-1185979",
+    "job_title": "Freelance Writer",
+    "company": "IAPWE",
+    "location": "Worldwide",
+    "salary_raw": "$50-$75 /hour",
+    "posted_raw": "2026-10-04T16:53:34",
+    "description": "Our organization is seeking content writers to create articles and blog posts on a variety of topics. The rate of pay is $20 per 100 words (this comes out to approximately $100 per article or $50 per hour). Some topics you may be asked to write about include the following (you can always turn down a topic if you do not feel comfortable writing about it, however if you have experience or expertise in a specific area, please let us know): Health & beauty Fitness Home Decor Fashion Sports Do it yourself Finance Legal Medical Family/Parenting Relationships Real Estate Restaurants Contracting (plumbing, pool building, remodeling, etc.) These are just some of the more general industries and topics that we cover. Requirements : We ask that all work be completed using a word processor such as Microsoft Word or Open Office A reliable internet connection and the ability to meet deadlines Good communication skills and respond in a timely manner to editorial staff when they ask for updates on tasks, etc Work well as a team member with the rest of our content management and editorial staff Note : Applicants to this job signaled that accessing some writing tasks may require payment.",
+    "skills": [],
+    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
+    "skill_tags_raw": [
+      "REST",
+      "Writing"
+    ],
+    "is_remote": true,
+    "has_skills": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skill_count": 0,
+    "skills_joined": ""
+  },
+  {
     "job_id": "remotive-1749306",
     "job_title": "Freelance Copywriter",
     "company": "Coalition Technologies",
@@ -65,7 +124,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -110,7 +169,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -176,7 +235,7 @@
     "location": "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway",
     "salary_raw": "Unknown",
     "posted_raw": "2026-09-30T13:15:26",
-    "description": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe — no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI — co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python & LLM Developer, Senior Back-end Engineer (Python) Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operating at the frontier of the field. Locations: EU, US, Canada, UK, Australia, Singapore, Ireland, Norway, Switzerland, Iceland, and Mexico. Requirements for Senior Back-end Developers: 5+ years of software development experience 3+ years of experience with Golang and/or Python 2+ years of experience with Kubernetes 2+ years of experience with AI agent development Not your stack? We're placing Senior Developers (4+ yrs commercial experience) across AI Agent Architecture, AI Automation Architecture, AI Engineering, Site Reliability Engineering, Platform Engineering, React & Python, React & Golang, Golang, React & Java, React & Ruby,…",
+    "description": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe — no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI — co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python & LLM Developer, Senior Back-end Engineer (Python) Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operating at the frontier of the field. Locations: the UK, Singapore, the US, and Canada. Requirements for Senior Back-end Developers: 5+ years of software development experience 3+ years of experience with Golang and/or Python 2+ years of experience with Kubernetes 2+ years of experience with AI agent development Not your stack? We're placing Senior Developers (4+ yrs commercial experience) across AI Agent Architecture, AI Automation Architecture, AI Engineering, Site Reliability Engineering, Platform Engineering, React & Python, React & Golang, Golang, React & Java, React & Ruby, Ruby, PHP & Vue, Vue & Node.js, React & .NET, Android &…",
     "skills": [
       "Go",
       "Java",
@@ -191,7 +250,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -259,7 +318,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "android",
       "ios",
@@ -292,7 +351,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "api",
       "django",
@@ -335,7 +394,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -394,7 +453,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/customer-service/kundenservice-mobilfunk-inbound-innerhalb-der-eu-ausgenommen-deutschland-2091139",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "Customer Service"
     ],
@@ -426,7 +485,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -501,7 +560,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -576,7 +635,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -641,7 +700,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "go",
       "wordpress",
@@ -671,7 +730,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "go",
       "UI/UX",
@@ -709,7 +768,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -759,7 +818,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -802,7 +861,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-response-evaluator-2091126",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "AI/ML",
       "research",
@@ -827,7 +886,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-07T13:27:07.813519+00:00",
+    "scraped_at": "2026-10-08T13:32:45.163330+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
