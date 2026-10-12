@@ -10,7 +10,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -38,7 +38,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -81,7 +81,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "api",
       "backend",
@@ -125,7 +125,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -150,7 +150,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -195,7 +195,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -276,7 +276,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -344,7 +344,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "android",
       "ios",
@@ -358,52 +358,6 @@
     "salary_max": null,
     "skill_count": 1,
     "skills_joined": "Machine Learning"
-  },
-  {
-    "job_id": "remotive-2091141",
-    "job_title": "Frontend Web Application Developer",
-    "company": "KoboToolbox",
-    "location": "USA, Canada, Argentina, Mexico, Peru",
-    "salary_raw": "$90k - $105k",
-    "posted_raw": "2026-09-18T16:43:22",
-    "description": "Location: Remote Availability: 35-40 hours per week Working hours: US East business hours Reporting to: Lead developer KoboToolbox has an immediate opening for a Frontend Web Application Developer to fill a full-time position of approximately 35-40 hours per week, for a commitment of at least 1 year. As a member of our team, you will share in the challenge and excitement of writing code used by over 32,000 organizations around the world. These organizations create data-driven change through the collection and analysis of more than 20 million surveys per month. Only candidates who already have experience working on large web applications will be considered. Beyond technical acumen, we are seeking a team member who demonstrates curiosity, initiative, and a cooperative approach to problem solving and decision-making. If you're passionate about leveraging technology to make a positive impact, we want to hear from you! Responsibilities Searching and reading an extensive, long-lived code base to understand existing behavior and conventions. Recognizing when existing conventions may no longer be the best approach and suggesting improvements aligned with contemporary best practices. Writing robust, concise, and reusable code with accompanying tests and documentation. Reviewing other developers' code and providing constructive feedback. Incorporating feedback from code reviews to improve your skills and align with team standards. Using AI-assisted development tools effectively while…",
-    "skills": [
-      "Docker",
-      "Git",
-      "Machine Learning",
-      "Python",
-      "React",
-      "TypeScript"
-    ],
-    "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
-    "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
-    "skill_tags_raw": [
-      "api",
-      "django",
-      "docker",
-      "frontend",
-      "git",
-      "python",
-      "react",
-      "security",
-      "video",
-      "AI/ML",
-      "documentation",
-      "Typescript",
-      "web applications",
-      "backbone",
-      "diversity",
-      "REST",
-      "insurance",
-      "Design"
-    ],
-    "is_remote": true,
-    "has_skills": true,
-    "salary_min": 90000.0,
-    "salary_max": 105000.0,
-    "skill_count": 6,
-    "skills_joined": "Docker, Git, Machine Learning, Python, React, TypeScript"
   },
   {
     "job_id": "remotive-2091140",
@@ -420,7 +374,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -489,7 +443,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -564,7 +518,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -639,7 +593,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -704,7 +658,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "go",
       "wordpress",
@@ -734,7 +688,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "go",
       "UI/UX",
@@ -772,7 +726,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
+    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -806,77 +760,5 @@
     "salary_max": 200000.0,
     "skill_count": 8,
     "skills_joined": "Docker, Git, JavaScript, Kubernetes, Machine Learning, MySQL, PostgreSQL, React"
-  },
-  {
-    "job_id": "remotive-1680495",
-    "job_title": "Remote Office Assistant",
-    "company": "Coalition Technologies",
-    "location": "Worldwide",
-    "salary_raw": "$35,3k- $52k",
-    "posted_raw": "2026-09-11T20:16:48",
-    "description": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role is ideal for someone with strong communication skills, discretion, attention to detail, and a willingness to learn and grow within a fast-paced remote work environment. As an Office Assistant, you will help support daily administrative operations, assist with entry-level bookkeeping, organize client documents, support internal reporting, and help maintain accurate company records. This position offers strong growth potential for the right candidate, including opportunities for advancement within the Accounting team or other departments. We are looking for talented and diligent candidates who perform well on our skills assessments. Strong skills test performance may be considered even if a candidate does not meet every preferred experience or educational background requirement. Why Join Coalition Technologies? Coalition Technologies is committed to delivering high-quality work for our clients while providing our team with a fun, thriving, innovative, and growth-focused work environment. We offer: 100% remote work with a company that has supported remote team members for more than a decade Competitive profit-sharing bonus plan, with up to 50% of company profits paid to full-time employees each month Competitive Paid Time Off plan that supports work-life…",
-    "skills": [
-      "Excel",
-      "Git",
-      "MySQL"
-    ],
-    "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
-    "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
-    "skill_tags_raw": [
-      "CSS",
-      "excel",
-      "frontend",
-      "git",
-      "html",
-      "illustrator",
-      "magento",
-      "photoshop",
-      "php",
-      "shopify",
-      "wordpress",
-      "MySQL",
-      "startup",
-      "responsive",
-      "themes",
-      "bootstrap",
-      "insurance",
-      "jQuery",
-      "Ajax",
-      "Marketing"
-    ],
-    "is_remote": true,
-    "has_skills": true,
-    "salary_min": 52000.0,
-    "salary_max": 353000.0,
-    "skill_count": 3,
-    "skills_joined": "Excel, Git, MySQL"
-  },
-  {
-    "job_id": "remotive-2091126",
-    "job_title": "AI Response Evaluator",
-    "company": "iMerit Technology",
-    "location": "France, Japan, Turkey, Vietnam, Mexico, Norway",
-    "salary_raw": "$10K-$20K",
-    "posted_raw": "2026-09-11T06:49:00",
-    "description": "iMerit is looking for detail oriented analysts to evaluate and rank AI generated responses to image based prompts. You will judge answers on accuracy, relevance, clarity, conciseness, safety, localization, and how well they follow the user's instructions, then explain your reasoning in writing. Much of the job comes down to this: look at the image, look at what the model said about it, and decide whether the two actually match. What you will do Interpret conversational context and identify what the user really wanted Rate and rank responses against defined quality criteria Compare multiple answers and explain in writing why one wins Verify factual claims using approved research sources Flag tasks that cannot be reliably assessed rather than guessing What you bring: Strong critical thinking and sound judgment in ambiguous cases Solid research skills and attention to detail Excellent reading comprehension Self direction and the discipline to hit deadlines without supervision Good to know Independent contractor engagement for the length of the project. Fully remote and flexible. You choose your hours as long as volume and deadlines are met. Task volume varies with project demand.",
-    "skills": [
-      "Machine Learning"
-    ],
-    "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-response-evaluator-2091126",
-    "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-11T12:52:57.286969+00:00",
-    "skill_tags_raw": [
-      "AI/ML",
-      "research",
-      "SOLID",
-      "Artificial Intelligence"
-    ],
-    "is_remote": true,
-    "has_skills": true,
-    "salary_min": 10000.0,
-    "salary_max": 20000.0,
-    "skill_count": 1,
-    "skills_joined": "Machine Learning"
   }
 ]
