@@ -1,5 +1,50 @@
 [
   {
+    "job_id": "remotive-1680495",
+    "job_title": "Remote Office Assistant",
+    "company": "Coalition Technologies",
+    "location": "Worldwide",
+    "salary_raw": "$35,3k- $52k",
+    "posted_raw": "2026-10-11T20:17:27",
+    "description": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role is ideal for someone with strong communication skills, discretion, attention to detail, and a willingness to learn and grow within a fast-paced remote work environment. As an Office Assistant, you will help support daily administrative operations, assist with entry-level bookkeeping, organize client documents, support internal reporting, and help maintain accurate company records. This position offers strong growth potential for the right candidate, including opportunities for advancement within the Accounting team or other departments. We are looking for talented and diligent candidates who perform well on our skills assessments. Strong skills test performance may be considered even if a candidate does not meet every preferred experience or educational background requirement. Why Join Coalition Technologies? Coalition Technologies is committed to delivering high-quality work for our clients while providing our team with a fun, thriving, innovative, and growth-focused work environment. We offer: 100% remote work with a company that has supported remote team members for more than a decade Competitive profit-sharing bonus plan, with up to 50% of company profits paid to full-time employees each month Competitive Paid Time Off plan that supports work-life…",
+    "skills": [
+      "Excel",
+      "Git",
+      "MySQL"
+    ],
+    "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "skill_tags_raw": [
+      "CSS",
+      "excel",
+      "frontend",
+      "git",
+      "html",
+      "illustrator",
+      "magento",
+      "photoshop",
+      "php",
+      "shopify",
+      "wordpress",
+      "MySQL",
+      "startup",
+      "responsive",
+      "themes",
+      "bootstrap",
+      "insurance",
+      "jQuery",
+      "Ajax",
+      "Marketing"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": 52000.0,
+    "salary_max": 353000.0,
+    "skill_count": 3,
+    "skills_joined": "Excel, Git, MySQL"
+  },
+  {
     "job_id": "remotive-2086540",
     "job_title": "Inside Sales Contractor",
     "company": "Credit Wellness, LLC",
@@ -10,7 +55,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -38,7 +83,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -81,7 +126,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "api",
       "backend",
@@ -125,7 +170,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -150,7 +195,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -195,7 +240,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -276,7 +321,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -344,7 +389,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "android",
       "ios",
@@ -374,7 +419,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -443,7 +488,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -518,7 +563,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -593,7 +638,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -658,7 +703,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "go",
       "wordpress",
@@ -688,7 +733,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "go",
       "UI/UX",
@@ -726,7 +771,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-12T15:29:14.161391+00:00",
+    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
