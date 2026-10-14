@@ -14,7 +14,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -55,7 +55,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -83,7 +83,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -107,59 +107,6 @@
     "skills_joined": "Azure"
   },
   {
-    "job_id": "remotive-2091149",
-    "job_title": "Software Engineer / AI Code Trainer (Python, Web, Full Stack)",
-    "company": "CodeForAI",
-    "location": "USA, UK, India, Australia, Ireland, New Zealand, Philippines, Pakistan, Singapore, Mexico",
-    "salary_raw": "$45-$120/Hour",
-    "posted_raw": "2026-10-05T05:15:43",
-    "description": "Who Should Apply We are looking for developers from all technical backgrounds and language specializations. If you write clean code and understand software design, you are a fit: Software Engineers & Computer Scientists specializing in algorithms, data structures, or system design. Full-Stack & Web Developers working with modern front-end or back-end frameworks (JavaScript, TypeScript, React, Node.js, Python, PHP, Ruby, etc.). Backend & Systems Developers experienced in languages such as C++, Java, Go, Rust, or Python. DevOps & Database Engineers familiar with API design, SQL/NoSQL databases, or scripting. Role & Responsibilities As an AI Code Trainer , you will evaluate model-generated code, author reference solutions, and stress-test AI reasoning across various engineering domains. Code Auditing & Quality Analysis: Critique AI-generated solutions for logic, performance, security vulnerabilities, syntax, and coding best practices. Gold-Standard Solutions: Write clean, production-grade reference code and clear technical explanations for complex programming prompts. Test Design: Build unit tests and edge-case scenarios to evaluate model accuracy and expose edge-case failures. Technical Feedback: Write structured explanations detailing why an AI solution succeeds, fails, or produces bugs. Requirements Software Engineering Proficiency: Strong core fundamentals in at least one major programming language or web stack (e.g., Python, JavaScript/TypeScript, Java, C++, Go, C#, Rust,…",
-    "skills": [
-      "Java",
-      "JavaScript",
-      "Machine Learning",
-      "Node.js",
-      "Python",
-      "React",
-      "SQL",
-      "TypeScript"
-    ],
-    "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
-    "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
-    "skill_tags_raw": [
-      "api",
-      "backend",
-      "C",
-      "C#",
-      "C++",
-      "fullstack",
-      "go",
-      "java",
-      "javascript",
-      "node.js",
-      "php",
-      "python",
-      "react",
-      "ruby/rails",
-      "security",
-      "sql",
-      "AI/ML",
-      "rust",
-      "NoSQL",
-      "Typescript",
-      "debugging",
-      "scripting",
-      "Software Development"
-    ],
-    "is_remote": true,
-    "has_skills": true,
-    "salary_min": null,
-    "salary_max": null,
-    "skill_count": 8,
-    "skills_joined": "Java, JavaScript, Machine Learning, Node.js, Python, React, SQL, TypeScript"
-  },
-  {
     "job_id": "remotive-1185979",
     "job_title": "Freelance Writer",
     "company": "IAPWE",
@@ -170,7 +117,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -195,7 +142,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -240,7 +187,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -321,7 +268,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -389,7 +336,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "android",
       "ios",
@@ -419,7 +366,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -488,7 +435,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -563,7 +510,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -638,7 +585,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -703,7 +650,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "go",
       "wordpress",
@@ -733,7 +680,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "go",
       "UI/UX",
@@ -771,7 +718,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-13T14:14:28.542382+00:00",
+    "scraped_at": "2026-10-14T11:55:40.194431+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
