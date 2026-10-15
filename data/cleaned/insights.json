@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-10-14T11:55:40.278116+00:00",
-  "total_listings": 15,
-  "unique_companies": 9,
-  "remote_listings": 15,
-  "listings_with_skills": 12,
+  "generated_at": "2026-10-15T11:32:14.288837+00:00",
+  "total_listings": 14,
+  "unique_companies": 8,
+  "remote_listings": 14,
+  "listings_with_skills": 11,
   "top_5_skills": [
     {
       "skill": "Machine Learning",
-      "job_count": 8,
-      "pct_of_listings": 53.3
-    },
-    {
-      "skill": "JavaScript",
-      "job_count": 6,
-      "pct_of_listings": 40.0
+      "job_count": 7,
+      "pct_of_listings": 50.0
     },
     {
       "skill": "Node.js",
       "job_count": 6,
-      "pct_of_listings": 40.0
-    },
-    {
-      "skill": "React",
-      "job_count": 6,
-      "pct_of_listings": 40.0
+      "pct_of_listings": 42.9
     },
     {
       "skill": "TypeScript",
       "job_count": 6,
-      "pct_of_listings": 40.0
+      "pct_of_listings": 42.9
+    },
+    {
+      "skill": "Go",
+      "job_count": 5,
+      "pct_of_listings": 35.7
+    },
+    {
+      "skill": "Java",
+      "job_count": 5,
+      "pct_of_listings": 35.7
     }
   ],
   "salary_coverage": {
-    "listings_with_salary": 5,
-    "median_min_salary": 52000.0
+    "listings_with_salary": 4,
+    "median_min_salary": 38500.0
   },
   "top_locations": {
     "Worldwide": 6,
