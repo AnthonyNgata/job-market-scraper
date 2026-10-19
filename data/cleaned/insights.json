@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T11:08:30.239156+00:00",
+  "generated_at": "2026-10-19T13:19:49.058652+00:00",
   "total_listings": 12,
-  "unique_companies": 8,
+  "unique_companies": 9,
   "remote_listings": 12,
   "listings_with_skills": 10,
   "top_5_skills": [
@@ -11,35 +11,35 @@
       "pct_of_listings": 50.0
     },
     {
-      "skill": "JavaScript",
-      "job_count": 5,
-      "pct_of_listings": 41.7
-    },
-    {
-      "skill": "React",
-      "job_count": 5,
-      "pct_of_listings": 41.7
-    },
-    {
-      "skill": "Node.js",
-      "job_count": 5,
-      "pct_of_listings": 41.7
-    },
-    {
       "skill": "TypeScript",
       "job_count": 5,
       "pct_of_listings": 41.7
+    },
+    {
+      "skill": "Java",
+      "job_count": 4,
+      "pct_of_listings": 33.3
+    },
+    {
+      "skill": "Python",
+      "job_count": 4,
+      "pct_of_listings": 33.3
+    },
+    {
+      "skill": "JavaScript",
+      "job_count": 4,
+      "pct_of_listings": 33.3
     }
   ],
   "salary_coverage": {
-    "listings_with_salary": 5,
-    "median_min_salary": 52000.0
+    "listings_with_salary": 6,
+    "median_min_salary": 38500.0
   },
   "top_locations": {
-    "Worldwide": 6,
-    "Northern America, LATAM, Europe, APAC": 2,
+    "Worldwide": 7,
     "USA, Canada, USA timezones": 1,
     "Europe, USA, Canada, APAC": 1,
-    "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway": 1
+    "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway": 1,
+    "USA": 1
   }
 }
