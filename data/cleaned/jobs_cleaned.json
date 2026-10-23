@@ -18,7 +18,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "C++",
       "docker",
@@ -64,7 +64,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -114,7 +114,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -155,7 +155,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -183,7 +183,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -217,7 +217,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -242,7 +242,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -287,7 +287,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -368,7 +368,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
+    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -422,33 +422,5 @@
     "salary_max": null,
     "skill_count": 10,
     "skills_joined": "Go, Java, JavaScript, Kubernetes, Machine Learning, Node.js, Python, React, Scala, TypeScript"
-  },
-  {
-    "job_id": "remotive-2091144",
-    "job_title": "Content Reviewer - United States",
-    "company": "TELUS Digital",
-    "location": "USA",
-    "salary_raw": "Unknown",
-    "posted_raw": "2026-09-21T12:55:11",
-    "description": "We are looking for an independent, flexible, remote opportunity where you can help improve AI-powered search technology from the comfort of your home? If you're curious, internet-savvy, and enjoy evaluating online content, this freelance project could be a great fit. A Day in the Life of a Content Reviewer - US In this role, you will analyze and provide feedback on text, webpages, images, and other types of online content for leading search engines using a specialized online platform. By reviewing and rating search results for relevance and quality, you will help improve the overall search experience for millions of users around the world, including yourself. Join our global community and put your skills to work supporting one of the world's leading search technologies. Service Rates The rate of pay is $0.2333 per completed task, with an estimated earning potential of $14 per hour. Compensation is based on tasks completed and project availability. Estimated earnings may vary depending on task volume and program requirements including, quality, and productivity, in accordance with the program's quality standards and guidelines. Please note that only one member per household may participate in this program. If it is identified that more than one person from the same household is participating in the TELUS Digital Rating Program, all associated accounts may be removed from the program. Independent Contractor Relationship This opportunity is offered on an independent contractor…",
-    "skills": [
-      "Machine Learning"
-    ],
-    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
-    "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-22T11:55:35.338182+00:00",
-    "skill_tags_raw": [
-      "android",
-      "ios",
-      "social media",
-      "AI/ML",
-      "All others"
-    ],
-    "is_remote": true,
-    "has_skills": true,
-    "salary_min": null,
-    "salary_max": null,
-    "skill_count": 1,
-    "skills_joined": "Machine Learning"
   }
 ]
