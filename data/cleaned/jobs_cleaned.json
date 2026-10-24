@@ -1,5 +1,32 @@
 [
   {
+    "job_id": "remotive-2091161",
+    "job_title": "AI Trainer - Video Annotation",
+    "company": "iMerit Technology",
+    "location": "Worldwide",
+    "salary_raw": "70K-80K",
+    "posted_raw": "2026-10-22T18:40:19",
+    "description": "AI Trainer - Video Annotation Remote | Independent Contractor Prove your skills. Get certified. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. ▌ What you will do As part of the certification process, you will demonstrate your ability to: Annotate short video clips by identifying objects, actions and events. Evaluate video quality, relevance and accuracy against established guidelines. Assess the clarity and plausibility of movements. Apply instructions consistently and identify potential quality issues. ▌ What you bring Strong attention to detail and analytical thinking. Strong written English and the ability to follow detailed instructions independently. A commitment to accuracy and consistency. No previous AI or robotics experience required. ▌ What the work looks like You may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible. Please note: We currently have three projects open, and completing the certification process will allow us to evaluate which project may be the best fit for you.",
+    "skills": [
+      "Machine Learning"
+    ],
+    "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
+    "skill_tags_raw": [
+      "video",
+      "AI/ML",
+      "robotics",
+      "Artificial Intelligence"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": 70000.0,
+    "salary_max": 80000.0,
+    "skill_count": 1,
+    "skills_joined": "Machine Learning"
+  },
+  {
     "job_id": "remotive-2091158",
     "job_title": "Software Engineer, AI Coding Tasks",
     "company": "Askable",
@@ -18,7 +45,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "C++",
       "docker",
@@ -64,7 +91,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -114,7 +141,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -155,7 +182,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -183,7 +210,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -217,7 +244,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -242,7 +269,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -287,7 +314,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -368,7 +395,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-23T11:41:59.463955+00:00",
+    "scraped_at": "2026-10-24T11:04:09.777779+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
