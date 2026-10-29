@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-28T12:57:49.638034+00:00",
-  "total_listings": 11,
+  "generated_at": "2026-10-29T13:04:26.503321+00:00",
+  "total_listings": 12,
   "unique_companies": 8,
-  "remote_listings": 11,
-  "listings_with_skills": 9,
+  "remote_listings": 12,
+  "listings_with_skills": 10,
   "top_5_skills": [
     {
       "skill": "Machine Learning",
-      "job_count": 6,
-      "pct_of_listings": 54.5
-    },
-    {
-      "skill": "Git",
-      "job_count": 3,
-      "pct_of_listings": 27.3
+      "job_count": 7,
+      "pct_of_listings": 58.3
     },
     {
       "skill": "Java",
-      "job_count": 3,
-      "pct_of_listings": 27.3
+      "job_count": 4,
+      "pct_of_listings": 33.3
+    },
+    {
+      "skill": "JavaScript",
+      "job_count": 4,
+      "pct_of_listings": 33.3
     },
     {
       "skill": "Python",
-      "job_count": 3,
-      "pct_of_listings": 27.3
+      "job_count": 4,
+      "pct_of_listings": 33.3
     },
     {
-      "skill": "TypeScript",
-      "job_count": 3,
-      "pct_of_listings": 27.3
+      "skill": "React",
+      "job_count": 4,
+      "pct_of_listings": 33.3
     }
   ],
   "salary_coverage": {
@@ -37,6 +37,7 @@
   },
   "top_locations": {
     "Worldwide": 8,
+    "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia": 1,
     "USA, Canada, USA timezones": 1,
     "Europe, USA, Canada, APAC": 1,
     "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway": 1
