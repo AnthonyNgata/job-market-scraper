@@ -1,5 +1,62 @@
 [
   {
+    "job_id": "remotive-2091165",
+    "job_title": "Full-Stack Developer",
+    "company": "Fluence International, Inc.",
+    "location": "Worldwide",
+    "salary_raw": "$3.5k–$5k/month",
+    "posted_raw": "2026-10-29T18:22:41",
+    "description": "We’re looking for a pragmatic, security-minded Full-Stack Developer to help build and scale Fluence’s B2B products used by clinicians, researchers, and organizations in psychedelic-assisted therapy and mental health. You’ll work closely with and report to our Senior AI & Design Lead to turn product requirements into robust, secure, and well-documented applications, as well as maintain existing ones. What you’ll do Build and maintain full-stack web applications using React and Next.js . Architect reliable, performant backends and APIs; familiarity with AWS (Lambda, ECS/Fargate, API Gateway, RDS/DynamoDB, S3, CloudFront, Cognito, etc.) is important. AWS Bedrock and AWS CloudTrail experience is a plus. Implement secure authentication, authorization, and role-based access for clinician, admin, and other user workflows. Design data models and flows with privacy, auditability, and regulatory considerations in mind. Integrate with internal and external APIs and third-party services used in our B2B stack. Experience with LLM/AI features in production (guardrails, logging, security considerations). Implement logging, monitor performance, and ship production-quality code. Datadog and Sentry experience is a plus. Collaborate directly with the Senior AI & Design Lead for clear ownership, feedback, and iteration. Maintain clear documentation of architecture, decisions, and interfaces for internal teams. (Bonus) Use Convex or similar BaaS / serverless data platforms for rapid product…",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "JavaScript",
+      "Machine Learning",
+      "React",
+      "TypeScript"
+    ],
+    "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
+    "skill_tags_raw": [
+      "admin",
+      "api",
+      "AWS",
+      "backend",
+      "cloud",
+      "docker",
+      "frontend",
+      "fullstack",
+      "javascript",
+      "react",
+      "security",
+      "UI/UX",
+      "AI/ML",
+      "automation",
+      "documentation",
+      "healthcare",
+      "Typescript",
+      "web applications",
+      "SOLID",
+      "JSON",
+      "serverless",
+      "next.js",
+      "github",
+      "REST",
+      "mental health",
+      "BaaS",
+      "datadog",
+      "Software Development"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": 3500.0,
+    "salary_max": 5000.0,
+    "skill_count": 7,
+    "skills_joined": "AWS, Docker, Git, JavaScript, Machine Learning, React, TypeScript"
+  },
+  {
     "job_id": "remotive-2091135",
     "job_title": "Senior Back-end Developer",
     "company": "Lemon.io",
@@ -22,7 +79,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -92,7 +149,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2091134",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "AI/ML",
       "startup",
@@ -120,7 +177,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "video",
       "AI/ML",
@@ -153,7 +210,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "C++",
       "docker",
@@ -199,7 +256,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -249,7 +306,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -290,7 +347,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -318,7 +375,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -352,7 +409,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -377,7 +434,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -422,7 +479,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -503,7 +560,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-10-30T12:58:12.168481+00:00",
+    "scraped_at": "2026-10-31T12:34:11.755057+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
