@@ -12,7 +12,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -52,7 +52,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -113,7 +113,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -183,7 +183,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2091134",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "AI/ML",
       "startup",
@@ -211,7 +211,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "video",
       "AI/ML",
@@ -244,7 +244,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "C++",
       "docker",
@@ -290,7 +290,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -340,7 +340,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -381,7 +381,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -409,7 +409,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
+    "scraped_at": "2026-11-05T14:41:40.764207+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -431,28 +431,5 @@
     "salary_max": null,
     "skill_count": 1,
     "skills_joined": "Azure"
-  },
-  {
-    "job_id": "remotive-1185979",
-    "job_title": "Freelance Writer",
-    "company": "IAPWE",
-    "location": "Worldwide",
-    "salary_raw": "$50-$75 /hour",
-    "posted_raw": "2026-10-04T16:53:34",
-    "description": "Our organization is seeking content writers to create articles and blog posts on a variety of topics. The rate of pay is $20 per 100 words (this comes out to approximately $100 per article or $50 per hour). Some topics you may be asked to write about include the following (you can always turn down a topic if you do not feel comfortable writing about it, however if you have experience or expertise in a specific area, please let us know): Health & beauty Fitness Home Decor Fashion Sports Do it yourself Finance Legal Medical Family/Parenting Relationships Real Estate Restaurants Contracting (plumbing, pool building, remodeling, etc.) These are just some of the more general industries and topics that we cover. Requirements : We ask that all work be completed using a word processor such as Microsoft Word or Open Office A reliable internet connection and the ability to meet deadlines Good communication skills and respond in a timely manner to editorial staff when they ask for updates on tasks, etc Work well as a team member with the rest of our content management and editorial staff Note : Applicants to this job signaled that accessing some writing tasks may require payment.",
-    "skills": [],
-    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-    "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-04T14:35:08.104819+00:00",
-    "skill_tags_raw": [
-      "REST",
-      "Writing"
-    ],
-    "is_remote": true,
-    "has_skills": false,
-    "salary_min": null,
-    "salary_max": null,
-    "skill_count": 0,
-    "skills_joined": ""
   }
 ]
