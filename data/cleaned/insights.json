@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-05T14:41:40.814784+00:00",
-  "total_listings": 10,
-  "unique_companies": 8,
-  "remote_listings": 10,
-  "listings_with_skills": 9,
+  "generated_at": "2026-11-06T14:19:12.788042+00:00",
+  "total_listings": 12,
+  "unique_companies": 10,
+  "remote_listings": 12,
+  "listings_with_skills": 10,
   "top_5_skills": [
     {
       "skill": "Machine Learning",
-      "job_count": 6,
-      "pct_of_listings": 60.0
+      "job_count": 7,
+      "pct_of_listings": 58.3
     },
     {
       "skill": "Git",
       "job_count": 4,
-      "pct_of_listings": 40.0
+      "pct_of_listings": 33.3
     },
     {
       "skill": "Docker",
       "job_count": 3,
-      "pct_of_listings": 30.0
+      "pct_of_listings": 25.0
     },
     {
       "skill": "JavaScript",
       "job_count": 3,
-      "pct_of_listings": 30.0
+      "pct_of_listings": 25.0
     },
     {
       "skill": "React",
       "job_count": 3,
-      "pct_of_listings": 30.0
+      "pct_of_listings": 25.0
     }
   ],
   "salary_coverage": {
@@ -36,7 +36,8 @@
     "median_min_salary": 25000.0
   },
   "top_locations": {
-    "Worldwide": 8,
+    "Worldwide": 9,
+    "USA": 1,
     "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia": 1,
     "USA, Canada, USA timezones": 1
   }
