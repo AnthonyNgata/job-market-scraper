@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T14:19:12.788042+00:00",
+  "generated_at": "2026-11-07T13:04:26.821751+00:00",
   "total_listings": 12,
   "unique_companies": 10,
   "remote_listings": 12,
-  "listings_with_skills": 10,
+  "listings_with_skills": 9,
   "top_5_skills": [
     {
       "skill": "Machine Learning",
@@ -32,12 +32,12 @@
     }
   ],
   "salary_coverage": {
-    "listings_with_salary": 7,
+    "listings_with_salary": 8,
     "median_min_salary": 25000.0
   },
   "top_locations": {
-    "Worldwide": 9,
-    "USA": 1,
+    "Worldwide": 8,
+    "USA": 2,
     "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia": 1,
     "USA, Canada, USA timezones": 1
   }
