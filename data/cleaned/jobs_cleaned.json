@@ -1,5 +1,41 @@
 [
   {
+    "job_id": "remotive-2091045",
+    "job_title": "Tier III Service Desk Engineer",
+    "company": "Unio Digital",
+    "location": "Worldwide",
+    "salary_raw": "Unknown",
+    "posted_raw": "2026-11-07T01:10:55",
+    "description": "Unió Digital is an Arizona-based managed service provider (MSP) delivering Managed IT Services, Low Voltage Cabling, Access Control, Video Surveillance, and Intrusion Services. We believe technology should be intuitive, not intimidating. We are looking for an experienced Tier 3 Service Desk Technician with exceptional problem-solving skills. You will serve as the escalation point within the team, resolving complex technical issues while also leading client onboarding and project initiatives. You are expected to be involved in direct end-user support when required. If you have a passion for ensuring top-quality user support and thrive in a collaborative environment, this role is for you. Duties · Lead and support our helpdesk environment for managed service clients · Coordinate and manage client projects, acting as a bridge between the technical team and the client to ensure project success · Provide above and beyond support to our clients and respond to queries for technical assistance in person, via phone, or electronically as required · Provide training and support to clients during the onboarding process to ensure they understand how to effectively use their new IT systems and services. · Develop project plans for client onboarding and standardization projects, outlining tasks, resources required, and estimated timelines · Install, configure, diagnose, test and resolve technical hardware and software issues · Maintain and update written client and process documentation to…",
+    "skills": [
+      "Azure"
+    ],
+    "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
+    "skill_tags_raw": [
+      "azure",
+      "cisco",
+      "security",
+      "video",
+      "documentation",
+      "hardware",
+      "helpdesk",
+      "onboarding",
+      "MSP",
+      "ticketing",
+      "Microsoft 365",
+      "IT systems",
+      "Information Technology"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skill_count": 1,
+    "skills_joined": "Azure"
+  },
+  {
     "job_id": "remotive-2091168",
     "job_title": "US Remote Patient Care Advocate (Customer Service)",
     "company": "VXI Global Solutions",
@@ -10,7 +46,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/customer-service/us-remote-patient-care-advocate-customer-service-2091168",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "healthcare",
       "insurance",
@@ -34,7 +70,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -59,7 +95,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "android",
       "ios",
@@ -87,7 +123,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -127,7 +163,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -188,7 +224,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -258,7 +294,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2091134",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "AI/ML",
       "startup",
@@ -286,7 +322,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "video",
       "AI/ML",
@@ -319,7 +355,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "C++",
       "docker",
@@ -365,7 +401,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -415,7 +451,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -456,7 +492,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-07T13:04:26.785530+00:00",
+    "scraped_at": "2026-11-08T13:27:16.152767+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
