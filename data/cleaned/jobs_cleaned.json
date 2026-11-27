@@ -1,5 +1,36 @@
 [
   {
+    "job_id": "remotive-2091212",
+    "job_title": "Produktspezialist:in (German-speaking)",
+    "company": "Creative Force",
+    "location": "Europe, EMEA, Germany, European timezones",
+    "salary_raw": "Unknown",
+    "posted_raw": "2026-11-25T11:26:35",
+    "description": "You know SaaS. You like helping people get it right. And you'd rather have a real conversation than a hard sell. Do you speak German natively and want to help organisations get the most from a world-class SaaS platform? Then this might be the role you're looking for. Join a lean-by-design, globally recognised B2B SaaS company as the German-speaking specialist for our DACH+ markets. No cold calling, no quotas — just meaningful conversations that help interested people discover how our software makes their work easier, then supporting them brilliantly once they're on board. You won't be opening the market alone. Our marketing team already brings in German-speaking interest, and our experienced English-speaking sales colleagues handle these leads well. Your edge is simple and valuable: when a German-speaking prospect wants a demo auf Deutsch , or a new client wants onboarding and support in their own language, you're the person who makes that feel effortless — gründlich, verlässlich und auf den Punkt. Join our Rebel Alliance We're a diverse, remote crew that takes the work seriously without taking ourselves too seriously. You'll be a valued member of our global Client Success team, well supported with the tools, knowledge and people you need to do excellent work. In time you'll learn to work across teams and draw on our collective expertise — and you'll have real backing at every turn to grow into a confident product expert. What you'll do Run German-language demos for warm,…",
+    "skills": [
+      "JavaScript"
+    ],
+    "url": "https://remotive.com/remote-jobs/customer-service/produktspezialist-in-german-speaking-2091212",
+    "source_url": "https://remotive.com/api/remote-jobs",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
+    "skill_tags_raw": [
+      "api",
+      "CSS",
+      "html",
+      "javascript",
+      "saas",
+      "onboarding",
+      "responsive",
+      "Customer Service"
+    ],
+    "is_remote": true,
+    "has_skills": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skill_count": 1,
+    "skills_joined": "JavaScript"
+  },
+  {
     "job_id": "remotive-2091179",
     "job_title": "WordPress Theme & Plugin Developer",
     "company": "Steward Web Development",
@@ -10,7 +41,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/software-development/wordpress-theme-plugin-developer-2091179",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "fullstack",
       "wordpress",
@@ -38,7 +69,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091177",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "android",
       "ios",
@@ -76,7 +107,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "api",
       "CSS",
@@ -124,7 +155,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/content-creator-youtube-2091173",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "ecommerce",
       "shopify",
@@ -159,7 +190,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "CSS",
       "excel",
@@ -216,7 +247,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/data/senior-data-engineer-2091137",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -287,7 +318,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/customer-service/customer-service-representative-2091171",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "video",
       "healthcare",
@@ -328,7 +359,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091136",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
@@ -396,7 +427,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "CRM",
       "google sheets",
@@ -424,7 +455,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "azure",
       "cisco",
@@ -458,7 +489,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/customer-service/us-remote-patient-care-advocate-customer-service-2091168",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "healthcare",
       "insurance",
@@ -482,7 +513,7 @@
     "skills": [],
     "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "REST",
       "Writing"
@@ -507,7 +538,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "accounting",
       "excel",
@@ -547,7 +578,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       "admin",
       "api",
@@ -608,7 +639,7 @@
     ],
     "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developerusa-2091135",
     "source_url": "https://remotive.com/api/remote-jobs",
-    "scraped_at": "2026-11-26T16:56:18.904588+00:00",
+    "scraped_at": "2026-11-27T16:42:02.525447+00:00",
     "skill_tags_raw": [
       ".Net",
       "android",
