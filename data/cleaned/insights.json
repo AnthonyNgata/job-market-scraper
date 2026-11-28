@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-27T16:42:02.585740+00:00",
-  "total_listings": 16,
+  "generated_at": "2026-11-28T15:33:39.375481+00:00",
+  "total_listings": 15,
   "unique_companies": 13,
-  "remote_listings": 16,
-  "listings_with_skills": 11,
+  "remote_listings": 15,
+  "listings_with_skills": 10,
   "top_5_skills": [
     {
       "skill": "Machine Learning",
-      "job_count": 7,
-      "pct_of_listings": 43.8
+      "job_count": 6,
+      "pct_of_listings": 40.0
     },
     {
       "skill": "JavaScript",
-      "job_count": 6,
-      "pct_of_listings": 37.5
+      "job_count": 5,
+      "pct_of_listings": 33.3
     },
     {
       "skill": "React",
-      "job_count": 5,
-      "pct_of_listings": 31.2
-    },
-    {
-      "skill": "TypeScript",
       "job_count": 4,
-      "pct_of_listings": 25.0
+      "pct_of_listings": 26.7
     },
     {
       "skill": "Git",
       "job_count": 3,
-      "pct_of_listings": 18.8
+      "pct_of_listings": 20.0
+    },
+    {
+      "skill": "AWS",
+      "job_count": 3,
+      "pct_of_listings": 20.0
     }
   ],
   "salary_coverage": {
